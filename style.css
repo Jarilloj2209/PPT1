@@ -1,0 +1,47 @@
+/* styles.css - Personalización Reveal.js */
+
+.reveal {
+  font-size: 1.3em; /* Aumenta el tamaño de texto general */
+  max-width: 95%;
+  max-height: 95%;
+}
+
+/* Títulos más pequeños */
+.reveal h1 {
+  font-size: 1.6em;
+  margin-bottom: 0.4em;
+}
+
+.reveal h2 {
+  font-size: 1.4em;
+  margin-bottom: 0.4em;
+}
+
+/* Listas más legibles */
+.reveal ul {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* Imágenes más adaptables */
+.reveal section img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  margin-top: 10px;
+}
+
+/* Mejora del contraste */
+.reveal {
+  color: #e0e0e0;
+}
+
+.reveal strong {
+  color: #ffffff;
+}
+
+/* Opcional: cambio de fuente */
+.reveal {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+}

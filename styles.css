@@ -1,0 +1,74 @@
+/* styles.css - Estilo personalizado Reveal.js */
+
+.reveal {
+  font-size: 1.3em; /* Aumenta el tamaño de texto general */
+  max-width: 100vw;
+  max-height: 100vh;
+  padding: 0 2vw;
+}
+
+/* Títulos más pequeños para que no dominen la diapositiva */
+.reveal h1 {
+  font-size: 5em;
+  margin-bottom: 0.4em;
+}
+
+.reveal h2 {
+  font-size: 3em;
+  margin-bottom: 0.1em;
+}
+
+/* Listas legibles */
+.reveal ul {
+  font-size: 1.6em;
+  line-height: 1.6;
+}
+
+/* Imágenes adaptables y atractivas */
+.reveal section img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  margin-top: 10px;
+}
+
+/* Color y fuente */
+.reveal {
+  color: #e0e0e0;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+
+.reveal strong {
+  color: #ffffff;
+}
+
+.pasos {
+  font-size: 1.4em;
+  line-height: 1.6;
+}
+/* Forzar que el contenido empiece desde la parte superior de cada slide */
+.reveal .slides section {
+  display: block !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  text-align: justify; /* opcional: justifica todo el texto */
+  padding-top: 10px;
+}
+
+
+.justificado {
+  text-align: justify;
+}
+
+.Izquierda{
+  text-align: left;
+}
+/* Clase para alinear contenido arriba en slides específicas */
+.slide-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  text-align: justify;
+}

@@ -1,0 +1,201 @@
+---
+title: "Perfilando al enemigo: La anatomía de un ataque"
+format: 
+  revealjs:
+    theme: [dark]
+    transition: fade
+    slide-number: true
+    center: true
+    scrollable: true
+    chalkboard: true
+    highlight-style: monokai
+    logo: images/logo_ibpr.png
+    background-transition: slide
+    css: styles.css
+    toc: false
+editor: visual
+---
+
+## 🎯 ¿Por qué es importante hablar de esto?
+
+::: columns
+::: {.column width="60%"}
+- El activo más valioso en la actualidad es la información
+- Cualquier persona puede ser objetivo
+- Ejemplos de pérdidas comunes: fotos, documentos, reputación
+:::
+::: {.column width="40%"}
+![](images/RT1.png)
+:::
+:::
+
+---
+
+## 🕵️ ¿Quién es el enemigo?
+
+- Ciberdelincuentes (buscan dinero)  
+- Estafadores (suplantación de identidad)  
+- Script Kiddie
+- Hacktivistas  
+- Grupos organizados (Ciberactores)
+
+> **Motivaciones:** lucro, sabotaje, control, acceso, dinero
+
+![](images/enemy-types.png)
+
+
+
+## 🔄 Anatomía general de un ataque
+
+::: {.incremental .pasos}
+1. Reconocimiento 🔍
+2. Preparación 🎭
+3. Acceso inicial 💻
+4. Explotación 🐍
+5. Impacto 💣
+:::
+
+
+![](images/attack-cycle.png)
+
+
+## 🔎 Caso práctico: El ataque Marianita
+::: columns
+::: {.column width="60%"}
+<div style="font-size: 1.4em; line-height: 1.6; margin-top:10%;">
+**Víctima:** Estudiante de la Ibero Puebla  
+**Objetivo del atacante:** ????
+
+</div>
+:::
+::: {.column width="40%"}
+![](images/ph1.png)
+:::
+:::
+
+---
+
+## 🧩 Reconocimiento
+
+- Redes sociales, LinkedIn, correos filtrados
+- Marianita identificada como personal con acceso
+- Contraseña por defecto no actulizada
+
+![](images/social-engineering.png)
+
+---
+
+## 📩 Primer contacto (Ingeniería social)
+
+- Correo falso de servicios escolares
+- Falsificación de login institucional
+
+![](images/email-trap.png)
+
+> *Marianita hace clic sin sospechar nada...*
+
+---
+
+## 💣 Intrusión
+
+- El atacante roba la identidad de Marianita
+
+![](images/hacker-access.png)
+
+---
+
+## 💀 Explotación
+
+- El atacante envia un archivo infectado a OAT, Tesoría y al coordinador de ciencias básicas
+
+> *Logrando instalar malware en diferentes puntos de la intistución*
+
+![](images/ransom-money.png)
+
+## 💀 Impacto
+
+> *Logrando el acceso a la red interna...*
+
+![](images/ransom-money.png)
+
+---
+
+## 💻 ¿Qué buscan los atacantes?
+
+- Contraseñas
+- Documentos confidenciales
+- Acceso a dispositivos
+
+![](images/data-stolen.png)
+
+<div style="position: absolute; top: 0; left: 0; width: 100%;">
+## Metodos avanzados
+
+![](images/imagen.png)
+</div>
+
+## 🧠 Señales de alerta
+::: columns
+::: {.column width="40%"}
+- Mensajes urgentes o amenazas
+- Enlaces sospechosos o mal escritos
+- Archivos inesperados
+- Solicitud de datos personales o bancarios
+:::
+::: {.column width="60%"}
+![](images/phi2.jpeg)
+:::
+:::
+
+
+## 🔐 ¿Cómo protegerte?
+
+- Contraseñas únicas y seguras 🔑  
+- Autenticación multifactor (MFA) 🔐  
+- No abrir correos sospechosos 📪  
+- Antivirus actualizado 🛡️  
+- No reciclar contraseñas 🔐 
+
+![](images/security-tools.png)
+
+
+
+## 🚨 ¿Qué hacer en caso de?
+
+- Cambia tus contraseñas inmediatamente
+- Contacta a la institución si es necesario
+- Busca ayuda profesional
+
+![](images/recovery.png)
+
+
+
+## 📊 En la actualidad
+
+![](images/ELMS.webp)
+
+
+
+## 📊 En la actualidad
+
+![](images/imagen%20(1).png)
+
+## 🧭 Conclusión
+
+> *¿Estás listo para protegerte?*
+
+![](images/shield-user.png)
+
+
+
+## ❓ Preguntas y respuestas
+
+![](images/questions.png)
+
+
+
+## Recursos
+
+- [https://haveibeenpwned.com](https://haveibeenpwned.com)(https://intelx.io) – verifica si fuiste filtrado  
+- Usa un gestor de contraseñas seguro  
+- Instala antivirus y activa 2FA  

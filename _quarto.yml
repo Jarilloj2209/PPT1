@@ -1,0 +1,12 @@
+format:
+  revealjs:
+    theme: [dark]
+    transition: fade
+    slide-number: true
+    center: false
+    chalkboard: true
+    highlight-style: monokai
+    logo: images/hacker-logo.png
+    background-transition: slide
+    css: styles.css
+    toc: false
